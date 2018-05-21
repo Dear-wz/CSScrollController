@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "CSScrollControlsView.h"
-@interface ViewController ()<CSScrollControlsViewDataSource>
+@interface ViewController ()
 
 @end
 
@@ -31,7 +31,7 @@
 
  
     CSScrollControlsView* scrollControl = [[CSScrollControlsView alloc]initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, self.view.bounds.size.height - 20)];
-    scrollControl.dataSource = self;
+    [scrollControl addControllers:self.childViewControllers];
     [self.view addSubview:scrollControl];
     
     

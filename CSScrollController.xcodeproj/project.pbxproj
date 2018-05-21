@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		969F8B8120B2AD3E0046B60C /* CSScrollControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 969F8B8020B2AD3E0046B60C /* CSScrollControlsView.m */; };
 		96B6020B20A6915A001EF678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B6020A20A6915A001EF678 /* AppDelegate.m */; };
 		96B6020E20A6915B001EF678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B6020D20A6915B001EF678 /* ViewController.m */; };
 		96B6021120A6915B001EF678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B6020F20A6915B001EF678 /* Main.storyboard */; };
 		96B6021320A69160001EF678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B6021220A69160001EF678 /* Assets.xcassets */; };
 		96B6021620A69160001EF678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B6021420A69160001EF678 /* LaunchScreen.storyboard */; };
 		96B6021920A69160001EF678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B6021820A69160001EF678 /* main.m */; };
-		96B6022420A69214001EF678 /* CSScrollControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B6022320A69214001EF678 /* CSScrollControlsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		969F8B7F20B2AD3E0046B60C /* CSScrollControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSScrollControlsView.h; path = ../../../Project/BaoCheChongGou/BaoCheQuan/Classes/FreeRide/Views/CSViews/CSScrollControlsView.h; sourceTree = "<group>"; };
+		969F8B8020B2AD3E0046B60C /* CSScrollControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSScrollControlsView.m; path = ../../../Project/BaoCheChongGou/BaoCheQuan/Classes/FreeRide/Views/CSViews/CSScrollControlsView.m; sourceTree = "<group>"; };
 		96B6020620A6915A001EF678 /* CSScrollController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSScrollController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B6020920A6915A001EF678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96B6020A20A6915A001EF678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		96B6021520A69160001EF678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B6021720A69160001EF678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B6021820A69160001EF678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96B6022220A69214001EF678 /* CSScrollControlsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSScrollControlsView.h; sourceTree = "<group>"; };
-		96B6022320A69214001EF678 /* CSScrollControlsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSScrollControlsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		96B6020820A6915A001EF678 /* CSScrollController */ = {
 			isa = PBXGroup;
 			children = (
-				96B6022220A69214001EF678 /* CSScrollControlsView.h */,
-				96B6022320A69214001EF678 /* CSScrollControlsView.m */,
+				969F8B7F20B2AD3E0046B60C /* CSScrollControlsView.h */,
+				969F8B8020B2AD3E0046B60C /* CSScrollControlsView.m */,
 				96B6020920A6915A001EF678 /* AppDelegate.h */,
 				96B6020A20A6915A001EF678 /* AppDelegate.m */,
 				96B6020C20A6915A001EF678 /* ViewController.h */,
@@ -146,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969F8B8120B2AD3E0046B60C /* CSScrollControlsView.m in Sources */,
 				96B6020E20A6915B001EF678 /* ViewController.m in Sources */,
-				96B6022420A69214001EF678 /* CSScrollControlsView.m in Sources */,
 				96B6021920A69160001EF678 /* main.m in Sources */,
 				96B6020B20A6915A001EF678 /* AppDelegate.m in Sources */,
 			);
